@@ -1,0 +1,14 @@
+.about-container{
+    font-family: 'Inter';
+    background-color: antiquewhite;
+    padding: 20px 30px 20px 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.about-container li{
+    line-height: 28px;
+}
+.about-container span{
+    font-weight: 600;
+}

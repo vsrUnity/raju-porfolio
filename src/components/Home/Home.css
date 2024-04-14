@@ -1,0 +1,63 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+}
+.home-container h1{
+    font-size: 60px;
+}
+@media (max-width:768px) {
+    .home-container h1{
+        font-size: 40px;
+    }
+    
+}
+.my-intro-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+@media (max-width: '768px') {
+    .my-intro-card{
+        width: 95%;
+    }
+    
+}
+.my-intro-card span{
+    color: red;
+}
+.name{
+    color: #c0741c !important;
+}
+.my-intro-card p{
+    font-size: 28px;
+    margin-top: -30px;
+}
+@media (max-width:768px) {
+    .my-intro-card p{
+        font-size: 20px;
+        line-height: 38px;
+    }
+    
+}
+.myphoto{
+    border-radius: 10%;
+    height: 200px;
+}
+.divider{
+    border-top: 0.1px solid #bfbfbf;
+    width: 90%;
+}
+.edu-skill-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.icons-card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}

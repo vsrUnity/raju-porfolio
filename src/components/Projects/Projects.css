@@ -1,0 +1,55 @@
+.work-container{
+    width: 80%;
+    font-family: "Inter";
+    margin-bottom: 20px;
+    
+}
+.projects-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.website-logo{
+    width: 150px;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #1ec005;
+    border-top: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+    border-radius: 8px;
+    padding: 25px 12px 10px 12px;
+    width: 250px;
+    text-align: center;
+    margin: 15px;
+    border-top-left-radius: 15%;
+
+}
+
+.project-card:hover {
+    box-shadow: 2px 5px 16px 10px rgba(0, 0, 0, 0.1); /* Apply box shadow on hover */
+  }
+.project-card div{
+    margin-left: 20px;
+
+}
+.project-card p{
+    font-size: 15px;
+}
+.project-card span{
+    font-weight: 600;
+}
+
+.links-icons{
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.git-icon{
+    cursor: pointer;
+}

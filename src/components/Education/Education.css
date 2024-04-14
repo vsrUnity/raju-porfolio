@@ -1,0 +1,35 @@
+.edu-container{
+    width: 80%;
+    font-family: "Inter";
+    margin-bottom: 20px;
+    
+}
+@media (max-width: 768px) {
+    .edu-container{
+        width: 90%;
+    }
+}
+.college-contanier{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #bfbfbf;
+}
+.edu-1{
+    display: flex;
+    border-radius: 4px;
+    padding: 4px 16px 4px 16px;
+    border-bottom: 2px solid rgb(255, 133, 12);
+    margin-bottom: 12px;
+    margin-left: 40px;
+    width: 90%;
+}
+@media (max-width:768px) {
+    .edu-1{
+        width: 90%;
+        margin-left: 5px;
+    }
+}
+.edu-1 img{
+    width: 100px;
+    height: 90px;
+}
