@@ -1,0 +1,59 @@
+.discussion-container{
+    /* background-color: #edf3f5; */
+    background-image: linear-gradient(#9333ea, #3b82f6);
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border-radius: 5px;
+    font-family: "Inter";
+
+}
+.discussion-container h2{
+    color: #fff;
+    font-size: 1.85rem;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.discussion-container p{
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+
+    
+}
+.discussion-container button{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    padding: .75rem 2rem .75rem 2rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    border-color: transparent;
+    opacity: 1;
+    margin-top: 20px;
+}
+.discussion-container a :hover{
+    box-shadow: 2px 0px 16px 0px #bfbfbf;
+    background-color: rgb(200, 253, 23);
+    color: #000;
+}
+@media (max-width:768px) {
+    .discussion-container h2{
+        font-size: 1.5rem;
+    }
+    .discussion-container p{
+        font-size: .9rem;
+    }
+    .discussion-container button{
+        font-size: .9rem;
+        padding: .5rem 1.8rem .5rem 1.8rem;
+    }
+    
+}
