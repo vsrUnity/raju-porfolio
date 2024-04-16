@@ -12,6 +12,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Navbar from '../Navbar/Navbar';
 import About from '../About/About';
 import Footer from '../Footer/Footer';
+import Discuss from '../Discuss/Discuss'
 
 export default function Home() {
   const aboutRef = useRef(null)
@@ -54,6 +55,7 @@ export default function Home() {
         <div ref={aboutRef} style={{width:'80%'}}>
           <About />
         </div>
+        <Discuss/>
         <Footer scrollToTop={scrollToTop}/>
     </div>
   )
